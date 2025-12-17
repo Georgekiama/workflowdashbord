@@ -456,37 +456,7 @@ export default function WorkflowDashboard() {
         </div>
 
         {/* Setup Instructions */}
-        <div className="mt-6 bg-gradient-to-br from-red-50 to-red-100 border-2 border-red-300 rounded-xl p-6">
-          <h3 className="text-lg font-bold mb-4 text-gray-900 flex items-center gap-2">
-            <Zap className="w-5 h-5 text-red-800" />
-            n8n Setup Instructions
-          </h3>
-          <ol className="space-y-3 text-gray-700">
-            <li className="flex gap-3">
-              <span className="font-bold text-red-800">1.</span>
-              <span>In your n8n workflows, add a <strong className="text-gray-900">Webhook</strong> node at the start of each workflow</span>
-            </li>
-            <li className="flex gap-3">
-              <span className="font-bold text-red-800">2.</span>
-              <span>Set each Webhook node to <strong className="text-gray-900">POST</strong> method</span>
-            </li>
-            <li className="flex gap-3">
-              <span className="font-bold text-red-800">3.</span>
-              <span>Copy the <strong className="text-gray-900">Production URL</strong> from each Webhook node</span>
-            </li>
-            <li className="flex gap-3">
-              <span className="font-bold text-red-800">4.</span>
-              <span>Paste the URLs into their respective fields above (Main Workflow & Google Sheets Sub-Workflow)</span>
-            </li>
-            <li className="flex gap-3">
-              <span className="font-bold text-red-800">5.</span>
-              <span>Click the appropriate <strong className="text-gray-900">Execute</strong> button to trigger each workflow manually</span>
-            </li>
-            <li className="flex gap-3">
-              <span className="font-bold text-red-800">6.</span>
-              <span>Monitor execution status and history in real-time below</span>
-            </li>
-          </ol>
+        <div className="mt-6 bg-gradient-to-br from-red-50 to-red-100 border-2 border-red-300 rounded-xl p-6">    
         </div>
       </div>
     </div>
