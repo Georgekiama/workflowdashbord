@@ -454,10 +454,6 @@ export default function WorkflowDashboard() {
             </div>
           )}
         </div>
-
-        {/* Setup Instructions */}
-        <div className="mt-6 bg-gradient-to-br from-red-50 to-red-100 border-2 border-red-300 rounded-xl p-6">    
-        </div>
       </div>
     </div>
   );
